@@ -1,0 +1,37 @@
+[
+    {
+        name: 'bottle',
+        area: 0.0585564,
+        count: 3,
+        maxh: 0.3416
+    },
+    {
+        name: 'tub',
+        area: 1.16129,
+        count: 3,
+        maxh: 0.4826
+    },
+    {
+        name: 'pool',
+        area: 0.0585564,
+        count: 3,
+        maxh: 0.4953
+    }
+]
+
+
+PLANNED:
+
+0. water jug
+1. bathtub
+2. house
+3. olmypic swimming pool
+    > something here
+4. coliseum
+5. hoover dam?
+5. central park?
+6. new york city?
+6. tokyo metropolitan area?
+7. all freshwater on earth
+    > maybe some country?
+8. earth?

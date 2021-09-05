@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from H 2 O</title>
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="full-view">
+        <div id="half-controls">
+            <!-- <div id="v-in-units-wrapper">
+                <input type="radio" name="units" id="v-in-units-gal" class="v-in v-in-units" value="">
+                <label for="v-in-units-gal">US Gallons</label>
+                <input type="radio" name="units" id="v-in-units-litre" class="v-in v-in-units" value="litres">
+                <label for="v-in-units-litre">Litres</label> -->
+
+
+            <div class="v-in-text v-in-big">Volume Visualizer</div>
+            <div class="v-in-text">Humans have a hard time grasping the scale of huge quantities of liquids. Look at some predefined sizes or view your own custom volume.</div>
+
+            <div id="v-in-volume-wrapper">
+                <input type="radio" name="volume" id="v-in-volume-custom-dummy" class="v-in v-in-volume" value="CUSTOM">
+                
+                <label for="v-in-volume-custom-dummy">
+                <input type="number" name="volume" id="v-in-volume-custom" min="0" value="0.0">Gallons
+                </label>
+
+                <input type="radio" name="volume" id="v-in-volume-milkbag" class="v-in v-in-volume" value="1.06">
+                
+                        <label for="v-in-volume-milkbag">4L Bag of Milk</label>
+
+                <input type="radio" name="volume" id="v-in-volume-shower" class="v-in v-in-volume" value="17">
+                
+                    <label for="v-in-volume-shower">8 Minute Shower</label>
+
+                <input type="radio" name="volume" id="v-in-volume-householdyear" class="v-in v-in-volume" value="110">
+                
+                    <label for="v-in-volume-householdyear">Daily Domestic Water Use (sanitation, drinking, laundry) of an American Household</label>
+
+                <input type="radio" name="volume" id="v-in-volume-milkprod" class="v-in v-in-volume" value="166">
+                
+                    <label for="v-in-volume-milkprod">Water Used to Produce One 4L Bag of Milk</label>   
+
+                <input type="radio" name="volume" id="v-in-volume-beef" class="v-in v-in-volume" value="407">
+                
+                    <label for="v-in-volume-beef">Water Footprint (throughout entire production chain) of 100g of Beef</label>
+
+                <input type="radio" name="volume" id="v-in-volume-almond" class="v-in v-in-volume" value="428">
+                
+                    <label for="v-in-volume-almond">Water Footprint of 100g of Almonds</label>
+
+                <input type="radio" name="volume" id="v-in-volume-footday" class="v-in v-in-volume" value="1687">
+                
+                    <label for="v-in-volume-footday">Water Footprint of a Canadian Person</label>
+
+                <input type="radio" name="volume" id="v-in-volume-personyear" class="v-in v-in-volume" value="19007">
+                
+                    <label for="v-in-volume-personyear">Yearly Domestic Water Use of an American Person</label>
+
+                <input type="radio" name="volume" id="v-in-volume-oilday" class="v-in v-in-volume" value="3998400000">
+                
+                    <label for="v-in-volume-oilday">Volume of Oil Produced Each Day in 2019</label>
+
+                <input type="radio" name="volume" id="v-in-volume-nestleyear" class="v-in v-in-volume" value="31964818335">
+                
+                    <label for="v-in-volume-nestleyear">Volume of Water Pumped by Nestlé in 2019</label>
+
+                <input type="radio" name="volume" id="v-in-volume-7bday" class="v-in v-in-volume" value="397856603773">
+                
+                    <label for="v-in-volume-7bday">Daily Domestic Water Use of the Entire World<br>(if everyone lived like the average American)</label>
+
+                <input type="radio" name="volume" id="v-in-volume-cokeday" class="v-in v-in-volume" value="478080000000">
+                
+                    <label for="v-in-volume-cokeday">All Coca Cola Ever Produced</label>
+
+                <input type="radio" name="volume" id="v-in-volume-lakesuperior" class="v-in v-in-volume" value="3.19648e+15">
+                
+                    <label for="v-in-volume-lakesuperior">Lake Superior</label>
+
+                <input type="radio" name="volume" id="v-in-volume-allfresh" class="v-in v-in-volume" value="2.746359e+16">
+                
+                    <label for="v-in-volume-allfresh">All Readily Usable Freshwater on Earth</label>
+            </div>
+        </div>
+        <div id="half-view">
+            <div id="three-view"></div>
+            <div id="v-text">
+                <div id="v-text-name"></div>
+                <div id="v-text-volume"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/three.js"></script>
+<script src="js/GLTFLoader.js"></script>
+<script src="js/main.js" type="module"></script>
+
+</html>

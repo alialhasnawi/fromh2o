@@ -1,0 +1,21 @@
+Support for:
+- tag name
+- class
+- properties + style
+- adding/removing many children via function
+
+make('div', 'super-cool', {id: 'pee'})
+make('div', 'super-cool')
+make('div', {id: 'pee'})
+
+el()
+el('amazing-wrapper')
+el('amazing-wrapper', 'a')
+
+addAll(e, [a, b, c])
+
+clear(e)
+
+div('some-class', {prop: 100})
+div({prop: 100})
+div('some-class')
